@@ -1,8 +1,10 @@
 # java-practice
- practice programs
-public class Main
+import java.util.Scanner;
+public class Main 
 {
-	public static void main(String[] args) {
-		System.out.println("Hello World");
-	}
-}
+    public static void main (String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        String a= sc.next();
+        String b = sc.next();
+        System.out.print(a+""+b);
